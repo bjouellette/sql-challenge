@@ -90,3 +90,7 @@
 -- FROM employees 
 -- GROUP BY last_name 
 -- ORDER BY COUNT(last_name) desc
+
+--Epilogue
+-- SELECT * FROM employees
+-- WHERE emp_no = 499942
