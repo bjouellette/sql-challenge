@@ -13,14 +13,14 @@
 
 -- -- Create a new table
 -- CREATE TABLE dept_manager (
---   	dept_no VARCHAR NOT NULL,
+--	dept_no VARCHAR NOT NULL,
 -- 	emp_no INT
 -- );
 
 
 -- -- Create a new table
 -- CREATE TABLE employees (
---   	emp_no INT,
+--  emp_no INT,
 -- 	emp_title_id VARCHAR NOT NULL,
 -- 	birth_date DATE,
 -- 	first_name VARCHAR NOT NULL,
@@ -42,5 +42,10 @@
 -- 	title_id VARCHAR NOT NULL,
 -- 	title VARCHAR NOT NULL
 -- );
+
+-- SELECT e.emp_no, e.last_name, e.first_name, e.sex, s.salary
+-- FROM employees e
+-- JOIN salaries s
+-- ON (e.emp_no = s.emp_no)
 
 
