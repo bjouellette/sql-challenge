@@ -1,3 +1,5 @@
+-- -- PK AND FK CREATED VIA CONSTRAINTS & CREATE AND ADDED IN LINES PER TUTOR-- -- 
+
 -- Create a new table
 CREATE TABLE departments (
   dept_no VARCHAR NOT NULL,
